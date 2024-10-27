@@ -11,8 +11,13 @@ npm install
 
 ### 3. Environment Variables:
    To use this API, you need an IntelX account. 
-   1. **Create an Account on IntelX**: Sign up at [IntelX](https://intelx.io) and obtain your API Key.  
-   2. **Configure Environment Variables**:       - Add your **IntelX API Key** and **Base URL** to a `.env` file in the project’s root directory.
+   1. **Create an Account on IntelX**: 
+   <br>
+   Sign up at [IntelX](https://intelx.io) and obtain your API Key.  
+   <br>
+   2. **Configure Environment Variables**:      
+   <br>
+   - Add your **IntelX API Key** and **Base URL** to a `.env` file in the project’s root directory.
    <br>
    Example `.env` file: 
    <br>
@@ -28,6 +33,7 @@ npm install
 node app.js
 
 ## API Endpoints
+
 ### 1. Initiate Search
 #### Endpoint: 
 POST /search
