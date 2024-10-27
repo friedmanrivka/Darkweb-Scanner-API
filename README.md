@@ -11,17 +11,16 @@ npm install
 
 ### 3. Environment Variables:
    To use this API, you need an IntelX account. 
+   <br>
    1. **Create an Account on IntelX**: 
    <br>
    Sign up at [IntelX](https://intelx.io) and obtain your API Key.  
    <br>
-   2. **Configure Environment Variables**:      
+   2. **Configure Environment Variables**:    
    <br>
-   - Add your **IntelX API Key** and **Base URL** to a `.env` file in the project’s root directory.
+    Add your **IntelX API Key** and **Base URL** to a `.env` file in the project’s root directory.
    <br>
-   Example `.env` file: 
-   <br>
-   PORT=3000
+  Example `.env` file: 
    <br>
    INTELX_BASE_URL=your_intelx_base_url  
    <br>
