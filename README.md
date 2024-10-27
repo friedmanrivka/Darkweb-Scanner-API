@@ -1,7 +1,7 @@
 # Darkweb Scanner API
 ## Overview
 The Darkweb Scanner API allows users to search for domain-related data on the dark web using the IntelX API. It includes endpoints for initiating a search and retrieving search results.
-#### Setup
+## Setup
 ### 1.Clone the Repository:    
 git clone https://github.com/friedmanrivka/Darkweb-Scanner-API.git
 cd <repository-directory>
