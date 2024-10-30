@@ -1,12 +1,9 @@
 import { searchDomain, fetchSearchResult } from '../services/searchService.js';
 
-// פונקציה לניהול נקודת הקצה לביצוע חיפוש
+
 export async function initiateSearch(req, res) {
     const { domain } = req.body;
 
-    // if (!domain) {
-    //     return res.status(400).json({ error: 'Domain is required in the request body' });
-    // }
 
     try {
         const result = await searchDomain(domain);
@@ -19,13 +16,9 @@ export async function initiateSearch(req, res) {
     }
 }
 
-// פונקציה לניהול נקודת הקצה לקבלת תוצאה לפי ID
 export async function getSearchResult(req, res) {
     const { id } = req.query;
 
-    // if (!id) {
-    //     return res.status(400).json({ error: 'ID is required as a query parameter' });
-    // }
 
     try {
         const result = await fetchSearchResult(id);
